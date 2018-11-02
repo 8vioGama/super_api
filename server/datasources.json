@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgresql": {
+    "host": "DB_HOST",
+    "port": 5432,
+    "url": "",
+    "database": "DB_NAME",
+    "password": "DB_PASSWORD",
+    "name": "postgresql",
+    "user": "DB_USER",
+    "connector": "postgresql"
+  }
+}

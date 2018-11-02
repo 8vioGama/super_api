@@ -1,0 +1,40 @@
+{
+  "name": "account",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userId": {
+      "type": "number",
+      "required": true
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "photoID": {
+      "type": "string"
+    },
+    "driversLicense": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "driverID": {
+      "type": "string"
+    },
+    "profilePhoto": {
+      "type": "string"
+    },
+    "userType": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

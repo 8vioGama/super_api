@@ -1,0 +1,31 @@
+{
+  "name": "vehicleType",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "premium": {
+      "type": "string",
+      "required": true
+    },
+    "pricePerKm": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "priceAfter600": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

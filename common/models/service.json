@@ -1,0 +1,29 @@
+{
+  "name": "service",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "quoteId": {
+      "type": "string"
+    },
+    "driverId": {
+      "type": "string"
+    },
+    "additionalServices": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "assignedVehicle": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

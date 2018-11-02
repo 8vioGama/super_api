@@ -1,0 +1,53 @@
+{
+  "name": "quote",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "origin": {
+      "type": "object",
+      "required": true
+    },
+    "destination": {
+      "type": "object",
+      "required": true
+    },
+    "distance": {
+      "type": "number",
+      "required": true
+    },
+    "vehicleType": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "deliveryDate": {
+      "type": "date"
+    },
+    "client": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "tax": {
+      "type": "number"
+    },
+    "commission": {
+      "type": "number"
+    },
+    "totalPrice": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

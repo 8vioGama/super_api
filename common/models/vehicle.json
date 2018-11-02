@@ -1,0 +1,25 @@
+{
+  "name": "vehicle",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vehicleType": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleColour": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

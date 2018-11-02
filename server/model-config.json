@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "postgresql"
+  },
+  "AccessToken": {
+    "dataSource": "postgresql",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "postgresql",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "postgresql",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "postgresql",
+    "public": false
+  },
+  "account": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "driver": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "company": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "vehicle": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "vehicleType": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "quote": {
+    "dataSource": "postgresql",
+    "public": true
+  },
+  "service": {
+    "dataSource": "postgresql",
+    "public": true
+  }
+}
